@@ -1,0 +1,43 @@
+{
+  "applications": "*",
+  "changelogDate": "20220710062956",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "project",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "creationDate",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Project",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "collaborator",
+      "otherEntityRelationshipName": "project",
+      "relationshipName": "projectOwner",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "collaborator",
+      "otherEntityRelationshipName": "project",
+      "relationshipName": "projectFinder",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "client",
+      "otherEntityRelationshipName": "project",
+      "relationshipName": "client",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

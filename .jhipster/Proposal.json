@@ -1,0 +1,35 @@
+{
+  "applications": "*",
+  "changelogDate": "20220710062957",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "proposal",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "creationDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "codProposal",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Proposal",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "proposalItem",
+      "otherEntityRelationshipName": "proposal",
+      "relationshipName": "proposalItem",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

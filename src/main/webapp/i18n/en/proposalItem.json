@@ -1,0 +1,25 @@
+{
+  "bututuApp": {
+    "proposalItem": {
+      "home": {
+        "title": "Proposal Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Proposal Item",
+        "createOrEditLabel": "Create or edit a Proposal Item",
+        "notFound": "No Proposal Items found"
+      },
+      "created": "A new Proposal Item is created with identifier {{ param }}",
+      "updated": "A Proposal Item is updated with identifier {{ param }}",
+      "deleted": "A Proposal Item is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Proposal Item {{ id }}?"
+      },
+      "detail": {
+        "title": "Proposal Item"
+      },
+      "id": "ID",
+      "description": "Description",
+      "proposal": "Proposal"
+    }
+  }
+}

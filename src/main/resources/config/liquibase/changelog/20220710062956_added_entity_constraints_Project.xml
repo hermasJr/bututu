@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity Project.
+    -->
+    <changeSet id="20220710062956-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="project_owner_id"
+                                 baseTableName="project"
+                                 constraintName="fk_project__project_owner_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="collaborator"/>
+
+        <addForeignKeyConstraint baseColumnNames="project_finder_id"
+                                 baseTableName="project"
+                                 constraintName="fk_project__project_finder_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="collaborator"/>
+
+        <addForeignKeyConstraint baseColumnNames="client_id"
+                                 baseTableName="project"
+                                 constraintName="fk_project__client_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="client"/>
+    </changeSet>
+</databaseChangeLog>
