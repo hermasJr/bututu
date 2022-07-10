@@ -1,0 +1,68 @@
+
+
+entity Collaborator{
+	creationDate Instant
+}
+
+relationship OneToOne {
+  Collaborator{user} to User
+}
+
+
+entity Client {
+	firstName String,
+	lastName String,
+	email String,
+	phoneNumber String,
+	salary Long,
+	commissionPct Long
+}
+
+entity Project {
+	name String,
+	creationDate Instant
+}
+
+
+entity Proposal {
+	name String,
+	creationDate Instant,
+    codProposal String
+
+}
+
+entity ProposalItem{
+	description String
+}
+
+entity Ticket {
+	subject String,
+	creationDate Instant,
+	
+}
+
+entity Job {
+	name String,
+	creationDate Instant,
+    description String
+}
+
+entity Timesheet{
+	creationDate Instant
+}
+
+relationship ManyToOne   {
+	
+	Project{projectOwner} to Collaborator,
+	Project{projectFinder} to Collaborator,
+	Project{client} to Client,
+
+
+	ProposalItem to Proposal,
+
+	Timesheet to Collaborator
+
+	
+
+}
+
