@@ -1,0 +1,25 @@
+{
+  "bututuApp": {
+    "timesheet": {
+      "home": {
+        "title": "Timesheets",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Timesheet",
+        "createOrEditLabel": "Criar ou editar Timesheet",
+        "notFound": "Nenhum Timesheets encontrado"
+      },
+      "created": "Um novo Timesheet foi criado com o identificador {{ param }}",
+      "updated": "Timesheet com identificador {{ param }} foi actualizado",
+      "deleted": "Timesheet com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Timesheet {{ id }}?"
+      },
+      "detail": {
+        "title": "Timesheet"
+      },
+      "id": "ID",
+      "creationDate": "Creation Date",
+      "collaborator": "Collaborator"
+    }
+  }
+}

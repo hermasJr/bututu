@@ -1,0 +1,25 @@
+{
+  "bututuApp": {
+    "ticket": {
+      "home": {
+        "title": "Tickets",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Ticket",
+        "createOrEditLabel": "Criar ou editar Ticket",
+        "notFound": "Nenhum Tickets encontrado"
+      },
+      "created": "Um novo Ticket foi criado com o identificador {{ param }}",
+      "updated": "Ticket com identificador {{ param }} foi actualizado",
+      "deleted": "Ticket com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Ticket {{ id }}?"
+      },
+      "detail": {
+        "title": "Ticket"
+      },
+      "id": "ID",
+      "subject": "Subject",
+      "creationDate": "Creation Date"
+    }
+  }
+}

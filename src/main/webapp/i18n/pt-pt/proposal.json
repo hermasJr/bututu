@@ -1,0 +1,27 @@
+{
+  "bututuApp": {
+    "proposal": {
+      "home": {
+        "title": "Proposals",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Proposal",
+        "createOrEditLabel": "Criar ou editar Proposal",
+        "notFound": "Nenhum Proposals encontrado"
+      },
+      "created": "Um novo Proposal foi criado com o identificador {{ param }}",
+      "updated": "Proposal com identificador {{ param }} foi actualizado",
+      "deleted": "Proposal com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Proposal {{ id }}?"
+      },
+      "detail": {
+        "title": "Proposal"
+      },
+      "id": "ID",
+      "name": "Name",
+      "creationDate": "Creation Date",
+      "codProposal": "Cod Proposal",
+      "proposalItem": "Proposal Item"
+    }
+  }
+}

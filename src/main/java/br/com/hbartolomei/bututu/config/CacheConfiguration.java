@@ -48,6 +48,16 @@ public class CacheConfiguration {
             createCache(cm, br.com.hbartolomei.bututu.domain.User.class.getName());
             createCache(cm, br.com.hbartolomei.bututu.domain.Authority.class.getName());
             createCache(cm, br.com.hbartolomei.bututu.domain.User.class.getName() + ".authorities");
+            createCache(cm, br.com.hbartolomei.bututu.domain.Collaborator.class.getName());
+            createCache(cm, br.com.hbartolomei.bututu.domain.Collaborator.class.getName() + ".timesheets");
+            createCache(cm, br.com.hbartolomei.bututu.domain.Client.class.getName());
+            createCache(cm, br.com.hbartolomei.bututu.domain.Project.class.getName());
+            createCache(cm, br.com.hbartolomei.bututu.domain.Proposal.class.getName());
+            createCache(cm, br.com.hbartolomei.bututu.domain.Proposal.class.getName() + ".proposalItems");
+            createCache(cm, br.com.hbartolomei.bututu.domain.ProposalItem.class.getName());
+            createCache(cm, br.com.hbartolomei.bututu.domain.Ticket.class.getName());
+            createCache(cm, br.com.hbartolomei.bututu.domain.Job.class.getName());
+            createCache(cm, br.com.hbartolomei.bututu.domain.Timesheet.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

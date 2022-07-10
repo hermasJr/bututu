@@ -1,0 +1,24 @@
+{
+  "applications": "*",
+  "changelogDate": "20220710062959",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "ticket",
+  "fields": [
+    {
+      "fieldName": "subject",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "creationDate",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Ticket",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

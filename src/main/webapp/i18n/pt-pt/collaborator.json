@@ -1,0 +1,26 @@
+{
+  "bututuApp": {
+    "collaborator": {
+      "home": {
+        "title": "Collaborators",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Collaborator",
+        "createOrEditLabel": "Criar ou editar Collaborator",
+        "notFound": "Nenhum Collaborators encontrado"
+      },
+      "created": "Um novo Collaborator foi criado com o identificador {{ param }}",
+      "updated": "Collaborator com identificador {{ param }} foi actualizado",
+      "deleted": "Collaborator com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Collaborator {{ id }}?"
+      },
+      "detail": {
+        "title": "Collaborator"
+      },
+      "id": "ID",
+      "creationDate": "Creation Date",
+      "user": "User",
+      "timesheet": "Timesheet"
+    }
+  }
+}
